@@ -1,7 +1,7 @@
 _id: req_02199930e9ea49fc8605c6b740954b69
 type: Request
 parentId: wrk_e65455ab961e4c45b22b097ec0700265
-modified: 1725897495444
+modified: 1725898371290
 created: 1725883690502
 url: http://localhost:8000/graphql
 name: Countries
@@ -16,8 +16,10 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnia/10.0.0-beta.2
+    id: pair_46a2298f749a4782a7d3bd0a24e3a9fe
   - name: Content-Type
     value: application/json
+    id: pair_f015c3d6cc2e4fad8abbf62defee0be7
 authentication: {}
 preRequestScript: null
 metaSortKey: -1725883690502
