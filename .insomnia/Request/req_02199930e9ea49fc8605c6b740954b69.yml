@@ -1,0 +1,32 @@
+_id: req_02199930e9ea49fc8605c6b740954b69
+type: Request
+parentId: wrk_e65455ab961e4c45b22b097ec0700265
+modified: 1725897495444
+created: 1725883690502
+url: http://localhost:8000/graphql
+name: Countries
+description: "# Graphql"
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"     {\n  country(code: \"FR\")
+    {\n    name\n    native\n    capital\n    emoji\n    currency\n    languages
+    {\n      code\n      name\n    }\n  }\n}"}'
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/10.0.0-beta.2
+  - name: Content-Type
+    value: application/json
+authentication: {}
+preRequestScript: null
+metaSortKey: -1725883690502
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
